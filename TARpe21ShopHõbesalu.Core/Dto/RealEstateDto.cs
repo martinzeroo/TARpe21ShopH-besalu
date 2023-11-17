@@ -43,7 +43,7 @@ namespace TARpe21ShopHõbesalu.Core.Dto
         public bool IsPropertyNewDevelopment { get; set; } //shows if the estate being sold is a newly developed housing unit, or an older existing one
         public bool IsPropertySold { get; set; } //shows if the property has been sold already 
         public List<IFormFile> Files { get; set; }
-        public List<FileToApiDto> FilesToApiDtos { get; set; } = new List<FileToApiDto>();
+        public IEnumerable<FileToApiDto> FilesToApiDtos { get; set; } = new List<FileToApiDto>();
 
         //database only properties
 
