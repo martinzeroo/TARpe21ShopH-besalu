@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TARpe21ShopHõbesalu", "TAR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TARpe21ShopHõbesalu.ApplicationServices", "TARpe21ShopHõbesalu.ApplicationServices\TARpe21ShopHõbesalu.ApplicationServices.csproj", "{BC07A880-4855-46C1-95B3-223118AECFC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TARpe21ShopHõbesalu.Data", "TARpe21ShopHõbesalu.Data\TARpe21ShopHõbesalu.Data.csproj", "{772047B7-7D86-4B68-B054-21B62270A5AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TARpe21ShopHõbesalu.Data", "TARpe21ShopHõbesalu.Data\TARpe21ShopHõbesalu.Data.csproj", "{772047B7-7D86-4B68-B054-21B62270A5AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TARpe21ShopHõbesalu.SpaceshipTest", "TARpe21ShopHõbesalu.SpaceshipTests\TARpe21ShopHõbesalu.SpaceshipTest.csproj", "{7CAD60AD-0176-4669-8F21-9C3D515EBCFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{772047B7-7D86-4B68-B054-21B62270A5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{772047B7-7D86-4B68-B054-21B62270A5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{772047B7-7D86-4B68-B054-21B62270A5AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CAD60AD-0176-4669-8F21-9C3D515EBCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CAD60AD-0176-4669-8F21-9C3D515EBCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CAD60AD-0176-4669-8F21-9C3D515EBCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CAD60AD-0176-4669-8F21-9C3D515EBCFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

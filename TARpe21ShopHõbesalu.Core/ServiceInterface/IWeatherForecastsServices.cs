@@ -9,6 +9,7 @@ namespace TARpe21ShopHõbesalu.Core.ServiceInterface
 {
     public interface IWeatherForecastsServices
     {
-        Task<WeatherResultDto> WeatherDetail(WeatherResultDto dto);
+        public Task<WeatherResultDto> WeatherDetail(WeatherResultDto dto);
+        public Task<OpenWeatherResultDto> OpenWeatherDetail(OpenWeatherResultDto dto);
     }
 }
